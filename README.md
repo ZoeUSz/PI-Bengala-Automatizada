@@ -30,7 +30,7 @@ Arquivos Importantes
 Instalação e Configuração
 Requisitos
 
-    Flutter SDK: Instalar Flutter
-    Java JDK: Instalar JDK
-    Maven: Instalar Maven
-    GCC: Instalar GCC
+    Flutter SDK
+    Java JDK
+    Maven
+    GCC

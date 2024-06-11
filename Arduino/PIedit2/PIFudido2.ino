@@ -8,13 +8,13 @@
 #include <WiFiUdp.h>
 #include <time.h>
 
-const char* ssid = "S20+";
-const char* password = "12345678";
+const char* ssid = "...";
+const char* password = "...";
 
 // Adafruit IO
-#define IO_USERNAME  "offBurso"
-#define IO_KEY       "aio_qQpG53Qtbau5lh2vy9unrk6YGCoZ"
-const char* mqtt_server = "io.adafruit.com";
+#define IO_USERNAME  "..."
+#define IO_KEY       "..."
+const char* mqtt_server = "...";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -32,8 +32,8 @@ HardwareSerial sim800(1); // Módulo GSM
 HardwareSerial neogps(2); // Módulo GPS
 TinyGPSPlus gps;
 
-#define FIREBASE_HOST "https://flutterlauncher-default-rtdb.firebaseio.com/" // Link do Firebase
-#define FIREBASE_AUTH "qW6QEDsFPItGCkeB9XLZkZmIVM24GaloN3SwXPe3" // Autenticação do Firebase
+#define FIREBASE_HOST "..." // Link do Firebase
+#define FIREBASE_AUTH "..." // Autenticação do Firebase
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
